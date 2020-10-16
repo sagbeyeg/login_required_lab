@@ -1,0 +1,6 @@
+<h1>Hi, <%= session[:name] %></h1>
+
+<p>Here's your secret page...</p>
+<%= button_to "Secret Page", '/secret_page', method: :get %>
+<br><br>
+<%= button_to "Logout", '/logout', method: :destroy %>
